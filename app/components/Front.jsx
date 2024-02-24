@@ -22,7 +22,7 @@ const Front = () => {
                                 .callFunction(() => {
                                     console.log('String typed out!');
                                 })
-                                .pauseFor(2500)
+                                .pauseFor(1000)
                                 .start();
                             typewriter.typeString(`A React Developer`)
                                 .callFunction(() => {
@@ -35,7 +35,7 @@ const Front = () => {
                                 .callFunction(() => {
                                     console.log('String typed out!');
                                 })
-                                .pauseFor(2500)
+                                .pauseFor(1000)
                                 .start()
                         }
                         }
@@ -48,9 +48,9 @@ const Front = () => {
                 </div>
             </div>
             <hr />
-            <div id="second" className=' h-[400px] md: w-full md:w-[60%] flex items-center justify-around flex-col'>
-                <h1 className='text-[40px]'>About me</h1>
-                <p className='text-justify p-5 md:p-0 text-[18px]'>A third-year Computer Science and Engineering student on a mission to craft seamless digital experiences. Proficient in HTML, CSS, and JavaScript, I specialize in React.js and Next.js for modern, efficient web development. As I navigate the dynamic world of tech, my academic journey enriches my coding skills, focusing on data structures and algorithms. Join me as I explore the endless possibilities of technology and strive to leave a positive impact through code. Let's build the future together!</p>
+            <div id="second" className=' h-[450px] md: w-[90%] md:w-[60%] flex items-center justify-center flex-col'>
+                <h1 className='text-[40px] underline'>About me</h1>
+                <p className='text-justify p-3 md:p-0 text-[18px]'>A third-year Computer Science and Engineering student on a mission to craft seamless digital experiences. Proficient in HTML, CSS, and JavaScript, I specialize in React.js and Next.js for modern, efficient web development. As I navigate the dynamic world of tech, my academic journey enriches my coding skills, focusing on data structures and algorithms. Join me as I explore the endless possibilities of technology and strive to leave a positive impact through code. Let's build the future together!</p>
             </div>
         </div>
     )
