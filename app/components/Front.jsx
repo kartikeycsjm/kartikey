@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import img from '@/public/img3.jpg'
-// import resume from '@/app/components/resume.pdf'
+import resume from '@/app/assets/resume.pdf'
 import Social from './Social'
 import Typewriter from 'typewriter-effect';
 const Front = () => {
