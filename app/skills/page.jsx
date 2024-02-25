@@ -18,7 +18,7 @@ const SkillsPage = () => {
   return (
     <div className='w-full h-[2200px] md:h-[2000px] flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
       <Header/>
-      <h1 className='text-[25px] md:h-[150px] md:text-[35px] h-[110px] flex justify-center items-center font-extrabold text-purple-300 text-center'>Navigating the Digital Frontier:<br />A Polyglot Developer's Odyssey.</h1>
+      <h1 className='text-[25px] md:h-[150px] md:text-[35px] h-[110px] flex justify-center items-center font-extrabold text-white text-center'>Navigating the Digital Frontier:<br />A Polyglot Developer's Odyssey.</h1>
       <div className='w-full h-[2000px] md:h-[1600px] flex flex-col justify-between items-center'>
         <Skills heading={'Programming Languages'}>
           <Skill name={'JavaScript'} img={js} text={'Strong proficiency in JavaScript, including ES6 features and modern development practices.'} />

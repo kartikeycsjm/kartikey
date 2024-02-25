@@ -6,7 +6,7 @@ const skill = ({name,img,text}) => {
         <Image src={img} className='w-[30%] md:h-[130px] md:w-[130px]'></Image>
         <div className='w-[60%] md:min-h-[20px] md:w-[100%] text-center flex flex-col justify-around items-center text-white'>
             <h3 className='text-[20px] font-bold underline p-1'>{name}</h3>
-            <p className='md:px-5 md:p-2'>{text}</p>
+            <p className='md:px-5 p-2'>{text}</p>
         </div>
     </div>
   )
