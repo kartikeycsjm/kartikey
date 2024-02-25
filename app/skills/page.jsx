@@ -11,15 +11,16 @@ import next from '@/public/skillsimages/nextjs.png';
 import mysql from '@/public/skillsimages/mysql.png';
 import tailwind from '@/public/skillsimages/tailwind.png';
 import sass from '@/public/skillsimages/sass.png';
+import github from '@/public/skillsimages/github.png';
 import Skill from './skill';
 import Skills from './skills';
 
 const SkillsPage = () => {
   return (
-    <div className='w-full h-[2200px] md:h-[2000px] flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
-      <Header/>
+    <div className='w-full h-[2700px] md:h-[2500px] flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
+      <Header />
       <h1 className='text-[25px] md:h-[150px] md:text-[35px] h-[110px] flex justify-center items-center font-extrabold text-white text-center'>Navigating the Digital Frontier:<br />A Polyglot Developer's Odyssey.</h1>
-      <div className='w-full h-[2000px] md:h-[1600px] flex flex-col justify-between items-center'>
+      <div className='w-full h-[2600px] md:h-[2100px] flex flex-col justify-between items-center'>
         <Skills heading={'Programming Languages'}>
           <Skill name={'JavaScript'} img={js} text={'Strong proficiency in JavaScript, including ES6 features and modern development practices.'} />
           <Skill name={'Java'} img={java} text={'Experience with Java programming, including application development and debugging.'} />
@@ -28,6 +29,9 @@ const SkillsPage = () => {
           <Skill name={'React.js'} img={react} text={'Specialize in building dynamic user interfaces using React.js, leveraging its component-based architecture.'} />
           <Skill name={'Next.js'} img={next} text={'Implemented server-side rendering and optimized web applications using Next.js.'} />
           <Skill name={'TailwindCSS'} img={tailwind} text={'Proficient in using Tailwind CSS to create responsive and visually appealing designs.'} />
+        </Skills>
+        <Skills heading={'Version Controls'}>
+          <Skill name={'GitHub'} img={github} text={'Familiar with Git and GitHub for version control, including branching, merging, and pull requests.'} />
         </Skills>
         <Skills heading={'Databases'}>
           <Skill name={'MongoDB'} img={mongo} text={'Utilized MongoDB for data storage in several projects, understanding its NoSQL database concepts.'} />
