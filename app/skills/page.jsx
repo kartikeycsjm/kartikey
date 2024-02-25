@@ -17,9 +17,9 @@ import Skills from './skills';
 
 const SkillsPage = () => {
   return (
-    <div className='w-full h-[2700px] md:h-[2500px] flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
+    <div className='w-full min-h-[2700px] md:min-h-[2500px] flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
       <Header />
-      <h1 className='text-[25px] md:h-[150px] md:text-[35px] h-[110px] flex justify-center items-center font-extrabold text-white text-center'>Navigating the Digital Frontier:<br />A Polyglot Developer's Odyssey.</h1>
+      <h1 className='text-[25px] md:h-[150px] md:text-[35px] min-h-[110px] flex justify-center items-center font-extrabold text-white text-center'>Navigating the Digital Frontier:<br />A Polyglot Developer's Odyssey.</h1>
       <div className='w-full h-[2600px] md:h-[2100px] flex flex-col justify-between items-center'>
         <Skills heading={'Programming Languages'}>
           <Skill name={'JavaScript'} img={js} text={'Strong proficiency in JavaScript, including ES6 features and modern development practices.'} />
@@ -43,7 +43,7 @@ const SkillsPage = () => {
           <Skill name={'SASS/SCSS'} img={sass} text={'Used SASS/SCSS to streamline CSS development, creating maintainable stylesheets for large projects.'} />
         </Skills>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 };
