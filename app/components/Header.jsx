@@ -11,9 +11,9 @@ const Header = () => {
                 <h1 id='n' className=' cursor-pointer text-[22px] sm:text-[30px] md:text-[35px] text-[#e0e0fc]'>&lt;Kartikey/&gt;</h1>
             </div>
             <div className='w-[60%] sm:w-[55%] md:w-[70%] text-[13px] md:text-[16px] sm:text-[14px] h-full flex justify-around md:justify-around items-center'>
-                <Link href={'/'}>Home</Link>
-                <Link href={'/project'}>Projects</Link>
-                <Link href={'/skills'}>Skills</Link>
+                <Link className='bg-black hover:bg-blue-400 px-2 py-1 rounded-2xl' href={'/'}>Home</Link>
+                <Link className='bg-black hover:bg-blue-400 px-2 py-1 rounded-2xl' href={'/project'}>Projects</Link>
+                <Link className='bg-black hover:bg-blue-400 px-2 py-1 rounded-2xl' href={'/skills'}>Skills</Link>
                 <Link href={'/contact'} className='bg-black hover:bg-blue-400 px-2 py-1 border border-blue-600 rounded-2xl'>Contact Me</Link>
             </div>
         </div>
