@@ -4,7 +4,7 @@ const Social = () => {
   return (
     <div id="social" className='w-[100%] md:w-[50%] flex items-center justify-around'>
       <div className="soc">
-        <SocialIcon href="https://www.facebook.com/myselfkartikey" url='facebook.com' style={{ height: 50, width: 50 }} bgColor="black" fgColor='white'/>
+        <SocialIcon href="https://www.facebook.com/myselfkartikey" url='facebook.com' style={{ height: 50, width: 50, }} bgColor="black" fgColor='white'/>
       </div>
       <div className="soc">
         <SocialIcon href='https://www.instagram.com/myselfkartikey' url="www.instagram.com" style={{ height: 50, width: 50 }} bgColor="black" fgColor='white' />
