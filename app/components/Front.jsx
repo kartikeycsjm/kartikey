@@ -13,10 +13,10 @@ const Front = () => {
     };
     return (
         <div className='w-full text-white flex justify-center items-center flex-col'>
-            <div id="first" className='h-[650px] w-full md:w-[90%] flex justify-around items-center flex-col  md:flex-row-reverse sm:flex-row-reverse'>
+            <div id="first" className='h-[750px] w-full md:w-[90%] flex justify-around items-center flex-col  md:flex-row-reverse sm:flex-row-reverse'>
                 <Image src={img} className='w-[200px] md:w-[300px] sm:w-[250px] rounded-xl'></Image>
-                <div id="text" className='w-[70%] flex justify-between items-center flex-col h-[300px] md:h-[400px] text-[30px] md:w-[50%] md:text-[50px] sm:text-[45px] text-center md:text-left sm:text-left'>
-                    <div className='w-full h-[150px]'>
+                <div id="text" className='w-[70%] flex justify-between items-center flex-col h-[350px] md:h-[400px] text-[30px] md:w-[50%] md:text-[50px] sm:text-[45px] text-center md:text-left sm:text-left'>
+                    <div className='w-full h-[200px]'>
                         <Typewriter
                             onInit={(typewriter) => {
                                 typewriter.typeString(`Hey there! I'm <div id='name'> Kartikey Mishra </div>`)
@@ -42,7 +42,6 @@ const Front = () => {
                             }
                         />
                     </div>
-
                     <button className='w-[250px] duration-[0.5s] border p-1.5 text-[20px] border-blue-700 hover:bg-blue-500 '
                         onClick={handleDownload}>
                         Download Resume
