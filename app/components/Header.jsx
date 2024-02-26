@@ -4,9 +4,9 @@ import img from '@/public/img.jpg'
 import Link from 'next/link'
 const Header = () => {
     return (
-        <div className='w-[97%] h-[70px] md:h-[80px] sm:h-[80px] rounded-full flex items-center 
+        <div className='w-full h-[70px] md:h-[80px] sm:h-[80px] flex items-center 
         justify-between md:justify-between bg-[rgba(0,0,0,0.95)] text-[rgb(255,255,255)]'>
-            <div className='w-[40%] sm:w-[45%] md:w-[30%] h-full flex justify-between items-center'>
+            <div className='w-[40%] sm:w-[45%] md:w-[30%] h-full flex justify-around items-center'>
                 <Image src={img} className='w-[55px] md:w-[65px] rounded-full'></Image>
                 <h1 id='n' className=' cursor-pointer text-[22px] sm:text-[30px] md:text-[35px] text-[#e0e0fc]'>&lt;Kartikey/&gt;</h1>
             </div>
