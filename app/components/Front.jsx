@@ -50,10 +50,10 @@ const Front = () => {
                 </div>
             </div>
             <hr />
-            <div id="second" className='h-[450px] md:h-[400px] md:w-[60%] flex items-center justify-center md:justify-center flex-col'>
+            {/* <div id="second" className='h-[450px] md:h-[400px] md:w-[60%] flex items-center justify-center md:justify-center flex-col'>
                 <h1 className='md:text-[40px] sm:[40px] text-[20px] underline'>About me</h1>
                 <p className='w-[80%] text-justify p-3 md:p-0 text-[13px] sm:text-[16px] md:text-[18px]'>A third-year Computer Science and Engineering student on a mission to craft seamless digital experiences. Proficient in HTML, CSS, and JavaScript, I specialize in React.js and Next.js for modern, efficient web development. As I navigate the dynamic world of tech, my academic journey enriches my coding skills, focusing on data structures and algorithms. Join me as I explore the endless possibilities of technology and strive to leave a positive impact through code. Let's build the future together!</p>
-            </div>
+            </div> */}
         </div>
     )
 }
