@@ -6,6 +6,13 @@ const page = () => {
   return (
     <div className='w-full min-h-screen flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
       <Header></Header>
+      <Project name={'letswrite'} text={`Developed Let'sWrite, a social media platform utilizing Next.js framework with Tailwind CSS for design.
+        The platform enables seamless account creation through email, username, password, and phone
+        number, fostering connectivity and interaction.`}
+        techstack={'Next.js, TailwindCSS, MongoDB'}
+        githublink={'https://github.com/kartikeycsjm/letswrite'}
+        livelink={'https://letswrite1.vercel.app'} />
+        
       <Footer></Footer>
     </div>
   )

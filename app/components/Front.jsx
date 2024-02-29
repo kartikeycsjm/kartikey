@@ -12,7 +12,6 @@ const Front = () => {
         const fullUrl = `${window.location.origin}${pdfFilePath}`;
         window.open(fullUrl, '_blank');
     };
-
     return (
         <div className='w-full text-white flex justify-center items-center flex-col'>
             <div id="first" className='h-[750px] w-full md:w-[90%] flex justify-around items-center flex-col md:flex-row-reverse sm:flex-row-reverse'>
