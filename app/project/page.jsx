@@ -13,10 +13,14 @@ const page = () => {
           techstack={'Next.js, TailwindCSS, MongoDB'}
           githublink={'https://github.com/kartikeycsjm/letswrite'}
           livelink={'https://letswrite1.vercel.app'} />
-        <Project name={'Diary'} text={`Created a diary web app allowing users to add to-do lists and notes, which are saved locally for easy access.`}
-        techstack={"Next.js, Tailwind CSS"}
+        <Project
+          name={'Diary'}
+          text={`Created a diary web app allowing users to add to-do lists and notes, which are saved locally for easy access. Users can search for tasks by date, delete individual notes, and clear the entire diary.`}
+          techstack={"Next.js, Tailwind CSS"}
           githublink={'https://github.com/kartikeycsjm/diary'}
-          livelink={'https://diary1.vercel.app'} />
+          livelink={'https://diary1.vercel.app'}
+        />
+
       </div>
       <Footer></Footer>
     </div>
