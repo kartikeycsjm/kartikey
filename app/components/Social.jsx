@@ -2,7 +2,7 @@ import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 const Social = () => {
   return (
-    <div id="social" className='w-[100%] md:w-[50%] flex items-center justify-around'>
+    <div id="social" className='w-[90%] md:w-[50%] flex items-center justify-around'>
       <div className="soc">
         <SocialIcon href="https://github.com/kartikeycsjm" url='github.com' style={{ height: 45, width: 45 }} bgColor="black" fgColor='white' />
       </div>
