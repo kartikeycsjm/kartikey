@@ -14,7 +14,7 @@ const Front = () => {
     };
     return (
         <div className='w-full h-screen text-white flex justify-center items-center flex-col'>
-            <div id="first" className='h-[750px] w-full md:w-[90%] flex justify-around items-center flex-col md:flex-row-reverse sm:flex-row-reverse'>
+            <div id="first" className='h-[720px] w-full md:w-[90%] flex justify-around items-center flex-col md:flex-row-reverse sm:flex-row-reverse'>
                 <Image src={img} className='w-[200px] md:w-[300px] sm:w-[250px] rounded-sm' />
                 <div id="text" className='sm:h-[500px] w-[70%] flex justify-around items-center md:items-start sm:items-start sm:justify-around flex-col h-[300px] md:h-[400px] text-[30px] md:w-[50%] md:text-[50px] sm:text-[45px] text-center md:text-left sm:text-left'>
                     <div className='w-full h-[150px] sm:h-[220px] md:h-[300px]'>
