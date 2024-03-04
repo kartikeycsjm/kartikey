@@ -13,7 +13,7 @@ const Front = () => {
         window.open(fullUrl, '_blank');
     };
     return (
-        <div className='w-full h-screen text-white flex justify-center items-center flex-col'>
+        <div className='w-full min-h-screen text-white flex justify-center items-center flex-col'>
             <div id="first" className='h-[720px] w-full md:w-[90%] flex justify-around items-center flex-col md:flex-row-reverse sm:flex-row-reverse'>
                 <Image src={img} className='w-[200px] md:w-[300px] sm:w-[250px] rounded-sm' />
                 <div id="text" className='sm:h-[500px] w-[70%] flex justify-around items-center md:items-start sm:items-start sm:justify-around flex-col h-[300px] md:h-[400px] text-[30px] md:w-[50%] md:text-[50px] sm:text-[45px] text-center md:text-left sm:text-left'>
@@ -33,7 +33,7 @@ const Front = () => {
                                     .pauseFor(1000)
                                     .start()
                                     .deleteChars(18)
-                                typewriter.typeString(`A NextJS Developer`)
+                                typewriter.typeString(`A NextJS Developer.`)
                                     .callFunction(() => {
                                         console.log('String typed out!');
                                     })

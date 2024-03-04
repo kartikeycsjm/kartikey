@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../Header';
+import Footer from '../Footer';
 import js from '@/public/skillsimages/js.png';
 import java from '@/public/skillsimages/java.png';
 import html from '@/public/skillsimages/html.png';
@@ -17,10 +17,9 @@ import Skills from './skills';
 
 const SkillsPage = () => {
   return (
-    <div className='w-full min-h-[2700px] md:min-h-[2500px] flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
-      <Header />
-      <h1 className='text-[25px] md:h-[150px] md:text-[35px] min-h-[110px] flex justify-center items-center font-extrabold text-white text-center'>Navigating the Digital Frontier:<br />A Polyglot Developer's Odyssey.</h1>
-      <div className='w-full h-[2600px] md:h-[2100px] flex flex-col justify-between items-center'>
+    <div className='w-[80%] md:w-[60%] mb-5 h-[650px] md:h-[900px] flex justify-between items-center flex-col'>
+      <h1 className='text-[25px] md:h-[50px] md:text-[35px] min-h-[50px] flex justify-center items-center font-extrabold text-white text-center'>My Skills</h1>
+      <div className='w-full h-[600px] md:h-[850px] flex flex-col justify-around items-center'>
         <Skills heading={'Programming Languages'}>
           <Skill name={'JavaScript'} img={js} text={'Strong proficiency in JavaScript, including ES6 features and modern development practices.'} />
           <Skill name={'Java'} img={java} text={'Experience with Java programming, including application development and debugging.'} />
@@ -43,7 +42,6 @@ const SkillsPage = () => {
           <Skill name={'SASS/SCSS'} img={sass} text={'Used SASS/SCSS to streamline CSS development, creating maintainable stylesheets for large projects.'} />
         </Skills>
       </div>
-      <Footer/>
     </div>
   );
 };
