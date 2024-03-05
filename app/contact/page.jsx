@@ -29,10 +29,10 @@ const Contact = () => {
     }
   }
   return (
-    <div className='w-full h-[900px]  flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
+    <div className='w-full h-[750px]  flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
       <Header></Header>
       <h1 className='text-white text-[30px]'>Get connected with me.</h1>
-      <div id="form" className='w-[400px] md:w-[400px] bg-black rounded-lg h-[500px] md:h:[600px] flex justify-around items-center flex-col'>
+      <div id="form" className='w-[400px] md:w-[400px] bg-[#333333] rounded-lg h-[500px] md:h:[600px] flex justify-around items-center flex-col'>
         <h2 className='text-[25px] text-white'>Send Me Message</h2>
         <input type="text"
           value={name}
@@ -52,7 +52,7 @@ const Contact = () => {
           placeholder='Your Message'>
         </textarea>
         {apimsg === 'message recieved' ?<p className='text-white'>Your message is recieved</p> :
-          <button className='text-white border border-blue-800 px-2 py-1' onClick={handleClick}>
+          <button className='text-white border border-blue-500 px-2 py-1 rounded' onClick={handleClick}>
             Send
           </button>}
       </div>
