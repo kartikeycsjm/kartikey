@@ -5,7 +5,6 @@ import Project from './project'
 const page = () => {
   return (
     <div className='w-full min-h-screen flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
-      <Header></Header>
       <div id="main" className='w-full min-h-screen flex justify-around items-center flex-col
       md:flex-row'>
         <Project
@@ -23,7 +22,6 @@ const page = () => {
           livelink={'https://letswrite1.vercel.app'} />
         
       </div>
-      <Footer></Footer>
     </div>
   )
 }

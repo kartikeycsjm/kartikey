@@ -29,8 +29,7 @@ const Contact = () => {
     }
   }
   return (
-    <div className='w-full h-[750px]  flex justify-between items-center flex-col bg-[rgba(0,0,0,0.9)]'>
-      <Header></Header>
+    <div className='w-full h-[600px]  flex justify-around items-center flex-col bg-[rgba(0,0,0,0.9)]'>
       <h1 className='text-white text-[30px]'>Get connected with me.</h1>
       <div id="form" className='w-[400px] md:w-[400px] bg-[#333333] rounded-lg h-[500px] md:h:[600px] flex justify-around items-center flex-col'>
         <h2 className='text-[25px] text-white'>Send Me Message</h2>
@@ -56,7 +55,6 @@ const Contact = () => {
             Send
           </button>}
       </div>
-      <Footer></Footer>
     </div>
   )
 }

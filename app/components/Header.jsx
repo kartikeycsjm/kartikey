@@ -4,7 +4,7 @@ import img from '@/public/img.jpg'
 import Link from 'next/link'
 const Header = () => {
     return (
-        <div className='w-[99%] rounded-xl h-[60px] bg-[rgba(0,0,0,0.97)] md:h-[70px] sm:h-[70px] flex items-center 
+        <div className='w-full h-[60px] bg-[rgba(0,0,0,0.97)] md:h-[70px] sm:h-[70px] flex items-center 
         justify-between md:justify-between text-[rgb(255,255,255)]'>
             <div className='w-[40%] sm:w-[45%] md:w-[30%] h-full flex justify-around items-center'>
                 <Image src={img} className='w-[50px] md:w-[60px] rounded-full'></Image>

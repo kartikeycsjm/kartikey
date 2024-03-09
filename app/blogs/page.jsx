@@ -4,7 +4,6 @@ import Blog from '@/app/blogs/blog'
 const page = () => {
     return (
         <div className='w-full min-h-screen flex items-center justify-between flex-col bg-[rgba(0,0,0,0.9)]'>
-            <Header />
             <div id="blogs" className='w-[90%] min-h-[700px] flex justify-around items-center flex-col'>
                 <Blog
                     heading={'My take on mutable and immutable data structure.'}
@@ -16,7 +15,6 @@ const page = () => {
                     Now, suppose you concatenate a new string to X X += 'I am Kartikey'. Since strings are immutable, this operation doesn't modify the existing string; instead, it creates a new string with the concatenated value.  Thus, X now references this new string 'hello world! I am Kartikey', while Y still references the original string 'hello world!'. This behavior showcases the immutability of strings.`}
                 />
             </div>
-            <Footer />
         </div>
     )
 }
