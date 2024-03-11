@@ -1,8 +1,5 @@
 'use client'
 import React, { useState } from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Image from 'next/image'
 const Contact = () => {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
@@ -29,10 +26,10 @@ const Contact = () => {
     }
   }
   return (
-    <div className='w-full h-screen flex justify-center items-center flex-col bg-[rgba(0,0,0,0.9)]'>
+    <div className='w-full h-screen flex justify-around items-center flex-col bg-[rgba(0,0,0,0.9)]'>
       <h1 className='text-white text-[30px]'>Get connected with me.</h1>
       <div id="form" className='w-[400px] md:w-[400px] bg-[#333333] rounded-lg h-[600px] md:h:[600px] flex justify-around items-center flex-col'>
-        <h2 className='text-[25px] text-white'>Send Me Message</h2>
+        <h2 className='text-[25px] text-white'>Send me a message</h2>
         <input type="text"
           value={name}
           onChange={e => setName(e.target.value)}
