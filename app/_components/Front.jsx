@@ -14,7 +14,7 @@ export default function Home() {
         <div className="w-full h-screen flex justify-around items-center flex-col text-white
         md:w-[80%] md:flex-row-reverse md:justify-around
         ">
-            <Image src={profile} className="w-[250px] md:w-[400px] rounded-lg"></Image>
+            <Image src={profile} className="w-[280px] md:w-[400px] rounded-lg"></Image>
             <div id="text" className='sm:h-[500px] w-[70%] flex justify-around items-center md:items-start sm:items-start sm:justify-around flex-col h-[300px] md:h-[400px] text-[30px] md:w-[50%] md:text-[50px] sm:text-[45px] text-center md:text-left sm:text-left'>
                 <div className='w-full h-[150px] sm:h-[220px] md:h-[300px]'>
                     <Typewriter
