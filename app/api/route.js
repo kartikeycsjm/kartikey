@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import transporter from "@/emailConfig";
+import transporter from "@/emailConfig"
 
 const POST=async(req,res)=>{
     const {name,phone,email,message}=await req.json();

@@ -9,7 +9,6 @@ const transporter = nodemailer.createTransport({
   },
   debug: true,
 });
-
 transporter.verify(function (error, success) {
   if (error) {
     console.error('Error verifying transporter configuration:', error);
