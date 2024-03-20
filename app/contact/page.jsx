@@ -26,8 +26,8 @@ const Contact = () => {
     }
   }
   return (
-    <div className='w-full h-screen flex justify-around items-center flex-col'>
-      <div id="form" className=' w-[400px] md:w-[400px] bg-[#333333] rounded-lg h-[650px] md:h:[600px] flex justify-around items-center flex-col m-3'>
+    <div className='w-full  h-screen flex justify-around items-center flex-col'>
+      <div id="form" className=' w-[90%] md:w-[400px] bg-[#333333] rounded-lg h-[650px] md:h:[600px] flex justify-around items-center flex-col m-3'>
         <h2 className='text-[25px] text-white'>Send me a message</h2>
         <input type="text"
           value={name}
