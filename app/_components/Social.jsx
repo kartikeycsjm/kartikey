@@ -13,7 +13,7 @@ const Social = () => {
         <SocialIcon href='https://www.instagram.com/myselfkartikey' url="www.instagram.com" style={{ height: 40, width: 40 }} bgColor="black" fgColor='white' />
       </div>
       <div className="soc">
-        <SocialIcon href="https://www.linkedin.com/" url='linkedin.com' style={{ height: 40, width: 40 }} bgColor="black" fgColor='white' />
+        <SocialIcon href="https://www.linkedin.com/in/kartikey-mishra-637a442b5" url='linkedin.com' style={{ height: 40, width: 40 }} bgColor="black" fgColor='white' />
       </div>
       <div className="soc">
         <SocialIcon href="https://leetcode.com/iamkartikm/" url='leetcode.com' style={{ height: 40, width: 40 }} bgColor="black" fgColor='white' />
