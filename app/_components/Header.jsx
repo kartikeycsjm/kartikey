@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 const Header = () => {
     return (
-        <div className='w-[90%] text-white h-[50px] bg-[#000640] m-auto rounded-[50px] flex justify-around items-center sticky top-[2px]
+        <div className='w-[97%] text-white h-[50px] bg-[#000640] m-auto rounded-[50px] flex justify-around items-center sticky top-[2px]
         md:w-[80%] md:h-[70px]'>
             <h1 id='n' className='text-[19px] duration-[0.5s]
             md:text-[23px]'>&lt;Kartikey Mishra/&gt;</h1>
