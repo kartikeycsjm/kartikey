@@ -6,8 +6,8 @@ const POST=async(req,res)=>{
     console.log(name,phone,email,message);
     try {
         await transporter.sendMail({
-          from: 'kartikeymgkp@gmail.com',
-          to: 'kartikeymishracsjm@gmail.com',
+          from: 'kartikeymishracsjm@gmail.com',
+          to: 'kartikeymgkp@gmail.com',
           subject: 'New Contact Form Submission',
           text: `Name: ${name}\nPhone:${phone} \nEmail: ${email}\nMessage: ${message}`,
         });
